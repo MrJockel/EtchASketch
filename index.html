@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="script.js" type="text/javascript" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-A-Sketch</title>
+</head>
+
+<body class="centered" style="gap: 10px ; background-color: rgb(245, 230, 96); padding: 10px;">
+    <h2 class="centered"> Etch-A-Sketch </h2>
+    <h3 class="centered"> Select the width of the field: </h3>
+    <div class="slidecontainer">
+        <input type="range" min="1" max="100" value="16" class="slider" id="sizeSelector" >
+      </div>
+
+    <div id="sliderValue"></div>
+    <button id="resetCanvas" onclick="resetCanvas()">Reset Drawing</button>
+    <div id="sketchBox" style="background-color: white;">
+
+
+    </div>
+    <div id="currentSize">Test</div>
+</body>
+
+</html>
