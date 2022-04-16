@@ -63,7 +63,7 @@ function resetCanvas() {
     const boxes = document.querySelectorAll(".divBoxVertical");
 
     boxes.forEach(box => {
-        box.addEventListener('mouseenter', function handleClick(event) {
+        box.addEventListener('pointerenter', function handleClick(event) {
 
 
             box.setAttribute('style', 'background-color: blue;');
